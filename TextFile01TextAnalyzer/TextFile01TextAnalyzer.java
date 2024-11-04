@@ -19,12 +19,9 @@ public class TextFile01TextAnalyzer {
         }
 
         String text = textContent.toString().trim();
-
         String[] words = text.split("\\s+");
         int wordCount = words.length;
-
         int sentenceCount = text.split("[.!?]").length;
-
         String upperCaseText = text.toUpperCase();
 
         String longestWord = "";
